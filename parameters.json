@@ -1,0 +1,111 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "publicIPAddresses_DevopsAppGWipaddress_domainNameLabel": {
+            "value": null
+        },
+        "virtualNetworks_DevOpsVnet_name": {
+            "value": null
+        },
+        "virtualMachines_Webappvm1SI_name": {
+            "value": null
+        },
+        "virtualMachines_Webappvm2SI_name": {
+            "value": null
+        },
+        "networkInterfaces_webappvm1si443_name": {
+            "value": null
+        },
+        "networkInterfaces_webappvm2si911_name": {
+            "value": null
+        },
+        "publicIPAddresses_Webappvm1SI_ip_name": {
+            "value": null
+        },
+        "publicIPAddresses_Webappvm2SI_ip_name": {
+            "value": null
+        },
+        "availabilitySets_availabilitysetsSI_name": {
+            "value": null
+        },
+        "storageAccounts_evpsesourceroupdiag_name": {
+            "value": null
+        },
+        "networkSecurityGroups_Webappvm1SI_nsg_name": {
+            "value": null
+        },
+        "networkSecurityGroups_Webappvm2SI_nsg_name": {
+            "value": null
+        },
+        "publicIPAddresses_DevopsAppGWipaddress_name": {
+            "value": null
+        },
+        "publicIPAddresses_LoadBalancerFrontEnd_name": {
+            "value": null
+        },
+        "applicationGateways_DevopsApplicationGW_name": {
+            "value": null
+        },
+        "trafficManagerProfiles_WebApplicTrafficManager_name": {
+            "value": null
+        },
+        "loadBalancers_ApplicationloadbalancerSouthIndia_name": {
+            "value": null
+        },
+        "subnets_devopsbackendsubnet_name": {
+            "value": null
+        },
+        "securityRules_RDP_name": {
+            "value": null
+        },
+        "subnets_DevOPSfrontendsubnet_name": {
+            "value": null
+        },
+        "securityRules_HTTP_name": {
+            "value": null
+        },
+        "securityRules_HTTPS_name": {
+            "value": null
+        },
+        "securityRules_Port_80_name": {
+            "value": null
+        },
+        "securityRules_Port_80_name_1": {
+            "value": null
+        },
+        "securityRules_Port_3389_name": {
+            "value": null
+        },
+        "virtualMachines_Webappvm1SI_id": {
+            "value": null
+        },
+        "virtualMachines_Webappvm2SI_id": {
+            "value": null
+        },
+        "applicationGateways_DevopsApplicationGW_id": {
+            "value": null
+        },
+        "applicationGateways_DevopsApplicationGW_id_1": {
+            "value": null
+        },
+        "applicationGateways_DevopsApplicationGW_id_2": {
+            "value": null
+        },
+        "applicationGateways_DevopsApplicationGW_id_3": {
+            "value": null
+        },
+        "applicationGateways_DevopsApplicationGW_id_4": {
+            "value": null
+        },
+        "loadBalancers_ApplicationloadbalancerSouthIndia_id": {
+            "value": null
+        },
+        "loadBalancers_ApplicationloadbalancerSouthIndia_id_1": {
+            "value": null
+        },
+        "loadBalancers_ApplicationloadbalancerSouthIndia_id_2": {
+            "value": null
+        }
+    }
+}
